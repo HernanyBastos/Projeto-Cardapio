@@ -28,23 +28,38 @@
     <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Conheça nosso Cardápio</h2>
     <!--INICIO MENU-->
     <div id="menu">
-        <main>
+        <main class="grid grid-cols-1">
             <!--COMEÇO PRODUTO ITEM-->
-            <div>
+            <div class="flex gap-2">
                 <img src="./assets/hamb-1.png" alt="Hambuger 01" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
                 <div>
                     <p class="font-bold">Double Cheeseburguer com Bacon</p>
                     <p class="text-sm">Dois hambúrgueres de carne bovina suculentos, duas fatias de queijo derretido, fatias de bacon crocante, molho tipo maionese, alface picada e cebola picada. 
                     Os hambúrgueres são grelhados até atingirem o ponto ideal, e o bacon é frito até ficar crocante.</p>
-                    <div class="flex items-center gap-2 justify-between">
+                    <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$ 25,50</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Double Cheeseburguer com Bacon" data-preice="R$ 25,50">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
                 </div>
             </div>
             <!--FIM PRODUTO ITEM-->
+                        <!--COMEÇO PRODUTO ITEM-->
+                        <div class="flex gap-2">
+                            <img src="./assets/hamb-2.png" alt="Hambuger 02" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                            <div>
+                                <p class="font-bold">Bacon Cheeseburguer</p>
+                                <p class="text-sm">Um hambúrguer suculento com queijo derretido, fatias de bacon crocante e um molho especial, tudo dentro de um pão com gergelim tostado. </p>
+                                <div class="flex items-center gap-2 justify-between mt-3">
+                                    <p class="font-bold text-lg">R$ 35,50</p>
+                                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Bacon Cheeseburguer" data-preice="R$ 35,50">
+                                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIM PRODUTO ITEM-->
         </main>
     </div>
     <!--FIM MENU-->
