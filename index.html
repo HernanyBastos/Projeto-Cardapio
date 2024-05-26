@@ -16,10 +16,12 @@
     <!--INICIO DO HEADER-->
     <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
         <div class="w-full h-full flex flex-col justify-center items-center">
-            <img src="./assets/logo-hamburgueria.jpg" alt="Logo Insano Burger" class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200">
+            <img src="./assets/logo-hamburgueria.jpg" alt="Logo Insano Burger"
+                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200">
             <h1 class="text-4xl mt-4 mb-2 font-bold text-white">Insano Burguer - Mooca</h1>
-            <span class="text-white font-medium">Rua Frei Justino 66 - São Paulo/SP</span>
-            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5 text-white font-medium hover:scale-110 duration-200" id="date-span">
+            <span class="text-white font-medium">Rua Frei Justino 66 - Mooca - São Paulo/SP</span>
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5 text-white font-medium hover:scale-110 duration-200"
+                id="date-span">
                 <span>Seg á Dom - 18h00 ás 02h00 </span>
             </div>
         </div>
@@ -28,43 +30,179 @@
     <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Conheça nosso Cardápio</h2>
     <!--INICIO MENU-->
     <div id="menu">
-        <main class="grid grid-cols-1">
-            <!--COMEÇO PRODUTO ITEM-->
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+            <!--COMEÇO PRODUTO 01-->
             <div class="flex gap-2">
-                <img src="./assets/hamb-1.png" alt="Hambuger 01" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                <img src="./assets/hamb-1.png" alt="Hamburger 01"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
                 <div>
                     <p class="font-bold">Double Cheeseburguer com Bacon</p>
-                    <p class="text-sm">Dois hambúrgueres de carne bovina suculentos, duas fatias de queijo derretido, fatias de bacon crocante, molho tipo maionese, alface picada e cebola picada. 
-                    Os hambúrgueres são grelhados até atingirem o ponto ideal, e o bacon é frito até ficar crocante.</p>
+                    <p class="text-sm">Dois hambúrgueres de carne bovina suculentos, duas fatias de queijo derretido,
+                        fatias de bacon crocante, molho tipo maionese, alface picada e cebola picada.
+                        Os hambúrgueres são grelhados até atingirem o ponto ideal, e o bacon é frito até ficar crocante.
+                    </p>
                     <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold text-lg">R$ 25,50</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Double Cheeseburguer com Bacon" data-preice="R$ 25,50">
+                        <p class="font-bold text-lg">R$ 27,50</p>
+                        <button class="bg-gray-900 px-5 rounded hover:scale-110 duration-200 add-to-cart-btn"
+                            data-name="Double Cheeseburguer com Bacon" data-price="R$ 27,50">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
                 </div>
             </div>
-            <!--FIM PRODUTO ITEM-->
-                        <!--COMEÇO PRODUTO ITEM-->
-                        <div class="flex gap-2">
-                            <img src="./assets/hamb-2.png" alt="Hambuger 02" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
-                            <div>
-                                <p class="font-bold">Bacon Cheeseburguer</p>
-                                <p class="text-sm">Um hambúrguer suculento com queijo derretido, fatias de bacon crocante e um molho especial, tudo dentro de um pão com gergelim tostado. </p>
-                                <div class="flex items-center gap-2 justify-between mt-3">
-                                    <p class="font-bold text-lg">R$ 35,50</p>
-                                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Bacon Cheeseburguer" data-preice="R$ 35,50">
-                                        <i class="fa fa-cart-plus text-lg text-white"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!--FIM PRODUTO ITEM-->
+            <!--FIM PRODUTO 01-->
+            <!--COMEÇO PRODUTO 02-->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-2.png" alt="Hamburger 02"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                <div class="flex flex-col justify-between h-full">
+                    <div>
+                        <p class="font-bold">Bacon Cheeseburguer Duplo</p>
+                        <p class="text-sm">Um hambúrguer suculento com queijo derretido, fatias de bacon crocante e um
+                            molho especial, tudo dentro de um pão com gergelim tostado.
+                            O hambúrguer é grelhado até atingir o ponto ideal, e o bacon adiciona um toque defumado e
+                            salgado. </p>
+                    </div>
+                    <div class="mt-auto flex items-center gap-2 justify-between">
+                        <p class="font-bold text-lg">R$ 32,50</p>
+                        <button class="bg-gray-900 px-5 rounded hover:scale-110 duration-200 add-to-cart-btn"
+                            data-name="Bacon Cheeseburguer Duplo" data-price="R$ 32,50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO 02-->
+            <!--COMEÇO PRODUTO 03-->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-3.png" alt="Hamburger 03"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                <div class="flex flex-col justify-between h-full">
+                    <div>
+                        <p class="font-bold">Smash Queijo Duplo</p>
+                        <p class="text-sm">Este suculento hambúrguer duplo de queijo é uma delícia para os amantes de
+                            carne.
+                            Ele consiste em dois hambúrgueres de carne bovina, duas fatias de queijo derretido e um
+                            molho especial, tudo isso entre as metades de um pão de hambúrguer redondo e brilhante. </p>
+                    </div>
+                    <div class="mt-auto flex items-center gap-2 justify-between">
+                        <p class="font-bold text-lg">R$ 22,00</p>
+                        <button class="bg-gray-900 px-5 rounded hover:scale-110 duration-200 add-to-cart-btn"
+                            data-name="Smash Queijo Duplo" data-price="R$ 22,00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO 03-->
+            <!--COMEÇO PRODUTO 04-->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-4.png" alt="Hamburger 04"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                <div class="flex flex-col justify-between h-full">
+                    <div>
+                        <p class="font-bold">Frango com Guacamole</p>
+                        <p class="text-sm">Hambúrguer de frango um pão com sementes de gergelim, incluem alface, tomate,
+                            cebola, picles e um filé de frango empanado com queijo.
+                            A guacamole, um molho à base de abacate, adiciona um toque especial de cremosidade e sabor.
+                        </p>
+                    </div>
+                    <div class="mt-auto flex items-center gap-2 justify-between">
+                        <p class="font-bold text-lg">R$ 24,00</p>
+                        <button class="bg-gray-900 px-5 rounded hover:scale-110 duration-200 add-to-cart-btn"
+                            data-name="Frango com Guacamole" data-price="R$ 24,00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO 04-->
+            <!--COMEÇO PRODUTO 05-->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-5.png" alt="Hamburger 05"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                <div class="flex flex-col justify-between h-full">
+                    <div>
+                        <p class="font-bold">Hamburger com Queijo</p>
+                        <p class="text-sm">Hambúrguer com queijo apresenta um pão de hambúrguer com sementes de
+                            gergelim, alface, tomate, queijo e o que parece ser um hambúrguer de carne bovina.</p>
+                    </div>
+                    <div class="mt-auto flex items-center gap-2 justify-between">
+                        <p class="font-bold text-lg">R$ 26,50</p>
+                        <button class="bg-gray-900 px-5 rounded hover:scale-110 duration-200 add-to-cart-btn"
+                            data-name="Hamburger com Queijo" data-price="R$ 26,50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO 05-->
+            <!--COMEÇO PRODUTO 06-->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-6.png" alt="Hamburger 06"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                <div class="flex flex-col justify-between h-full">
+                    <div>
+                        <p class="font-bold">Sabor do Chefe</p>
+                        <p class="text-sm">hambúrguer especial combina a suculência da carne bovina com a cremosidade do
+                            queijo, tudo envolto em um pão de hambúrguer com sementes de gergelim.
+                            O toque de cebola roxa e o frescor do tomate fazem desse hambúrguer uma experiência única.
+                        </p>
+                    </div>
+                    <div class="mt-auto flex items-center gap-2 justify-between">
+                        <p class="font-bold text-lg">R$ 22,50</p>
+                        <button class="bg-gray-900 px-5 rounded hover:scale-110 duration-200 add-to-cart-btn"
+                            data-name="Sabor do Chefe" data-price="R$ 28,90">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO 06-->
+            <!--COMEÇO PRODUTO 07-->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-7.png" alt="Hamburger 07"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                <div class="flex flex-col justify-between h-full">
+                    <div>
+                        <p class="font-bold">Onin Burger com Bacon Cremoso</p>
+                        <p class="text-sm">Hambúrguer de carne bovina, duas cebolas empanadas, queijo e um toque de
+                            chili, tudo envolto em um pão de hambúrguer.
+                            A combinação de texturas e temperos faz desse hambúrguer uma experiência única.</p>
+                    </div>
+                    <div class="mt-auto flex items-center gap-2 justify-between">
+                        <p class="font-bold text-lg">R$ 22,50</p>
+                        <button class="bg-gray-900 px-5 rounded hover:scale-110 duration-200 add-to-cart-btn"
+                            data-name="Sabor do Chefe" data-price="R$ 28,90">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO 07-->
+            <!--COMEÇO PRODUTO 08-->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-8.png" alt="Hamburger 08"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                <div class="flex flex-col justify-between h-full">
+                    <div>
+                        <p class="font-bold">Hamburger Vegano</p>
+                        <p class="text-sm">Hambúrguer de carne de Soja, tomate, alface, rucúla, cenoura raladas e um molho especial agridoce.
+                            </p>
+                    </div>
+                    <div class="mt-auto flex items-center gap-2 justify-between">
+                        <p class="font-bold text-lg">R$ 22,50</p>
+                        <button class="bg-gray-900 px-5 rounded hover:scale-110 duration-200 add-to-cart-btn"
+                            data-name="Hamburger Vegano" data-price="R$ 22,50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO 08-->
         </main>
-    </div>
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Bebidas</h2>
     <!--FIM MENU-->
-</body>
-
 </body>
 
 </html>
